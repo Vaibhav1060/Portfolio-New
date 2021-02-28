@@ -1,0 +1,115 @@
+@media only screen and (max-width: 950px) {
+  .hero__col1 {
+    margin-bottom: 3rem;
+  }
+
+  .about__row {
+    flex-direction: column-reverse;
+  }
+
+  .about img {
+    margin-top: 5rem;
+  }
+
+  .grid {
+    margin: 0 auto;
+  }
+
+  .projects__item {
+    margin-bottom: 3rem;
+  }
+
+  .testimonial__item {
+    width: 80%;
+  }
+
+  .footer {
+    padding: 5rem 0rem;
+  }
+
+  .about__image {
+    width: 35rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .experience__col2 {
+    margin-top: 10rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .hero h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .hero h3 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .primary-button {
+    margin-bottom: 1rem;
+  }
+
+  .about h3 {
+    font-size: 2rem;
+  }
+
+  .about h4 {
+    font-size: 1rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .about span {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+
+  .about__personal {
+    flex-direction: column;
+  }
+
+  .about__personal__col1 {
+    margin-bottom: 2rem;
+  }
+
+  .experience__col1__number {
+    font-size: 3rem;
+  }
+
+  .experience__col2 {
+    padding-left: 1rem;
+  }
+
+  .experience__col1__years {
+    font-size: 1.5rem;
+  }
+
+  .experience__col2__call {
+    font-size: 1rem;
+  }
+
+  .testimonial__item {
+    flex-direction: column;
+    padding: 0rem;
+  }
+
+  .testimonial__image {
+    width: 5rem;
+    margin: 0.5rem auto;
+  }
+
+  .testimonial__body {
+    text-align: center;
+  }
+}
