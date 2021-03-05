@@ -15,19 +15,19 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Portfolio</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#myNavbar" data-offset="60">
     <header class="bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+                    <nav class="navbar navbar-expand-md navbar-light bg-light" id="myNavbar">
                         <a href="#" class="navbar-brand"><img src="./img/logo.png" alt="logo"></a>
                         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active"><a href="#hero" class="nav-link">HOME</a></li>
+                                <li class="nav-item"><a href="#hero" class="nav-link active">HOME</a></li>
                                 <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
                                 <li class="nav-item"><a href="#services" class="nav-link">SERVICES</a></li>
                                 <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
@@ -45,7 +45,7 @@
         </nav>
     </header>
 
-    <section class="hero" id="home">
+    <section class="hero" id="hero">
         <div class="container">
             <div class="row hero__row">
                 <div class="col-lg-6 hero__col1">
@@ -101,7 +101,7 @@
                       </div>
                          <div class="about__personal__col2">
                       <div class="about__personal__item">
-                          <h4>Age:<span class="about__span">23 August 1993</span></h4>
+                          <h4>Age:<span class="about__span">27 years</span></h4>
                       </div>
                        <div class="about__personal__item">
                           <h4>Website:<span class="about__span">www.domain.com</span></h4>
@@ -390,7 +390,7 @@
                             <img src="./img/testimonials/t2.jpg" class="testimonial__img"  alt="testimonial-image">
                         </div>
                         <div class="testimonial__body">
-                            <h4>John Mortin</h4>
+                            <h4>Smilga John</h4>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo laudantium est exercitationem labore ea aperiam commodi tempora quas? Sint.</p>
                         </div>
                     </div>
